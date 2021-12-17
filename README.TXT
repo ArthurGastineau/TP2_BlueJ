@@ -22,3 +22,6 @@ Si vous voulez créer un executable du programme, suivez les instructions suivan
     - Nombre de Joueurs
     - Nombre de lancers de dé
     - Nombre de faces du dé
+Pour faire un simple git push depuis le dossier :
+    git fetch
+    git status
