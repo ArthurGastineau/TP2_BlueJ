@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Jeu
+comment0.text=\r\n\ Cette\ classe\ permet\ la\ mod\u00E9lisation\ du\ jeu\ sans\ d\u00E9\ entre\ deux\ joueurs.\r\n\r\n\ @author\ GASTINEAU\ Arthur\ et\ LAMOUR\ Guillaume\r\n\ @version\ v0.7\r\n
+comment1.params=Joueurs\ nb_joueurs\ nb_coups\ De1
+comment1.target=Jeu(Joueur[],\ int,\ int,\ De)
+comment1.text=\r\n\ Constructeurs\ des\ objets\ de\ la\ classe\ Jeu\r\n\ @param\ \ Joueurs\ tableau\ d'objets\ de\ type\ Joueur\ comportant\ les\ informations\ de\ tous\ les\ joueurs\ pr\u00E9sent\ dans\ le\ jeu\r\n\ @param\ \ nb_joueurs\ entier\ d\u00E9signant\ le\ nombre\ de\ joueurs\ du\ jeu\r\n\ @param\ \ nb_coups\ \ entier\ d\u00E9signant\ le\ nombre\ de\ coups\ du\ jeu\r\n\ @param\ \ De1\ \ objet\ de\ type\ De\ mod\u00E9lisant\ le\ d\u00E9\ du\ jeu\r\n
+comment2.params=
+comment2.target=void\ partie()
+comment2.text=\r\n\ m\u00E9thode\ partie\ permettant\ la\ simulation\ d'une\ partie\ entre\ 2\ joueurs\ avec\ un\ nombre\ de\ coups\ sp\u00E9cifi\u00E9s\ et\ d'afficher\ le\ nom\ du\ vainqueur\ et\ son\ score.\r\n
+numComments=3
