@@ -47,7 +47,7 @@ public class Test
         
         //on lance la partie
         Jeu1.partie(); 
-        
+        //fin de la partie
         System.out.println("\nFin de la partie \n\n");
     }
 }
