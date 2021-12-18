@@ -3,11 +3,9 @@ This is the project README file.
 ------------------------------------------------------------------------
 PROJECT TITLE:Jeu de Dé
 
-PURPOSE OF PROJECT:Créer un programme permettant de créer une partie de dé entre plusieurs joueurs
+PURPOSE OF PROJECT:Créer un programme permettant de créer une partie de dé entre plusieurs joueurs pour se familiariser avec le language Java
 
 VERSION or DATE:17/12/2021
-
-HOW TO START THIS PROJECT: Code simple à comprendre et commenté
 
 AUTHORS: GASTINEAU Arthur et LAMOUR Guillaume
 
