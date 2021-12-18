@@ -1,41 +1,46 @@
-
 /**
- * Cette classe permet la modélisation d'un dé à 6 faces et offre un service de lancer de dé
+ * Cette classe permet la modélisation d'un dé. Il contient des méthodes permettant d' offrir un service de lancer de dé et de récupérer le nombre de face du dé.
  * 
  * @author GASTINEAU Arthur et LAMOUR Guillaume
  * @version v0.2
  */
 public class De
 {
+    // déclaration de la variable d'instance
     private int nb_faces;
+    
     /**
-     * Constructeur de la classe Test
-     * 
+     * Constructeur de la classe De
      * @param nb_faces entier correspondant au nombre de faces du dé
      */
     public De(int nb_faces) {
-        this.nb_faces = nb_faces;  //le dé comporte 6 faces
+        // initialisation de la variable d'instance
+        this.nb_faces = nb_faces;
     }
     
     /**
-     * méthode Lancer simulant un lancer de dé permettant de retourner un entier entre 1 et le nombre de faces du dé
+     * Méthode Lancer simulant un lancer de dé et retournant la valeur de sa face
      * 
-     * @return la méthode retourne un entier correspondant à la valeur de la face du dé
+     * @return la méthode retourne un entier entre 1 et le nombre de faces du dé
      */
     public int Lancer()
     {
-        @SuppressWarnings("deprecation")
-		Double D = new Double ( nb_faces*Math.random() + 1);   //créer un objet de  type Double contenant un nombre décimal entre 1 inclus et la valeur du nombre de faces plus un non inclus
-        int valeurDe = D.intValue();    //initialisation et affectation d'un entier à la valeur de l'attribut de D moulé en entier.
-        return valeurDe;    //retourne la valeur du De
+        //Créé un objet de  type Double contenant un nombre décimal entre 1 inclus et le nombre de faces + 1 non inclus
+        Double D = new Double ( nb_faces*Math.random() + 1);
+        //Initialisation et affectation d'un entier à la valeur de l'attribut de D moulé en entier
+        int valeurDe = D.intValue();  
+        //Retourne la valeur du dé
+        return valeurDe;    
     }
+    
     /**
-     * méthode getnbFaces permettant de récupérer le nombre de faces du dé
+     * Méthode getnbFaces permettant de récupérer le nombre de faces du dé
      * 
-     * @return la méthode retourne un entier correspondant au noimbre de faces du dé
+     * @return la méthode retourne un entier correspondant au nombre de faces du dé
      */
     public int getnbFaces()
     {
-        return nb_faces;    //retourne le nombre de faces du dé
+        //Retourne le nombre de faces du dé
+        return nb_faces;    
     }
 }

@@ -15,23 +15,23 @@ public class Test
     public Test() {}
     
     /**
-     * méthode main permettant la création et l'execution d'une partie entre 2 joueurs
-     *  
+     * Méthode main permettant la création et l'exécution d'une partie en fonction des paramètres rentrés par l'utilisateur
      */
-    public static void main(String[] args) throws IOException
+    public static void main(String[] args)
     {
         // On demande les paramètres de la partie à l'utilisateur
-        System.out.println("\nEntrée le nombre de joueurs : \n");
+        System.out.print("\nEntrée le nombre de joueurs : ");
         Scanner input = new Scanner(System.in);
         int nb_joueurs = input.nextInt();
-        System.out.println("\nEntrée le nombre de lancers : \n");
+        System.out.print("\nEntrée le nombre de lancers : ");
         input = new Scanner(System.in);
         int nb_lancers = input.nextInt();
-        System.out.println("\nEntrée le nombre de faces du dé : \n");
+        System.out.print("\nEntrée le nombre de face du dé : ");
         input = new Scanner(System.in);
         int nb_faces = input.nextInt();
         
         System.out.println("\n\nLancement de la partie \n\n");
+        
         //Déclaration du dé et du tableau de Joueurs
         De De1 = new De(nb_faces);
         Joueur [] Joueurs = new Joueur[nb_joueurs];
@@ -42,12 +42,13 @@ public class Test
             Joueurs[id_joueur] = new Joueur("Joueur"+(id_joueur+1));
         }
         
-        //on créé un jeu avec les joueurs et les paramètres
+        //On créé un jeu avec les joueurs et les paramètres
         Jeu Jeu1 = new Jeu (Joueurs,nb_joueurs,nb_lancers,De1);
         
-        //on lance la partie
-        Jeu1.partie(); 
-        //fin de la partie
+        //On lance la partie
+        Jeu1.partie();
+        
+        //Fin de la partie
         System.out.println("\nFin de la partie \n\n");
     }
 }

@@ -15,6 +15,7 @@ Si vous voulez créer un executable du programme, suivez les instructions suivan
     javac *.java  //Compilation des classes
     jar cvfe Test.jar Test *.class    //Créer un fichier Manifest qui renseigne la classe permettant l'entrée de l'application et un fichier .jar
     java -jar Test.jar    //Lance l'executable .jar
+    pause   //Garde le Command Prompt ouvert jusqu'à appui d'une touche
 - Il suffit ensuite d'éxecuter le fichier .bat, un Command prompt s'ouvrira.
 - Il suffit ensuite de renseigner les paramètres ci-dessous :
     - Nombre de Joueurs
